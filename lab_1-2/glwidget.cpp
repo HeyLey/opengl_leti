@@ -54,26 +54,7 @@ void drawPicture(QString type) {
         glColor4f(1, 0, 0, 0.6);
         glVertex3f(90, 70, 0);
         glColor4f(1, 1, 0, 0.5);
-        glVertex3f(50, 40, 0);/*
-        glColor4f(0, 1, 0, 0.5);
-        glVertex3f(77, 109, 0);
-        glColor4f(1, 0, 0, 0.6);
-        glVertex3f(50, 50, 0);
-
-        glColor4f(0, 1, 0, 0.7);
-        glVertex3f(259, 120, 0);
-        glColor4f(0, 0, 1, 0.8);
-        glVertex3f(169, 111, 0);
-
-        glColor4f(0, 0, 1, 0.8);
-        glVertex3f(240, 83, 0);
-        glColor4f(1, 0, 0, 0.7);
-        glVertex3f(259, 34, 0);
-
-        glColor4f(1, 0, 0, 0.6);
-        glVertex3f(211, 71, 0);
-        glColor4f(1, 1, 0, 0.5);
-        glVertex3f(155, 45, 0); */
+        glVertex3f(50, 40, 0);
         glEnd();
         return;
     }

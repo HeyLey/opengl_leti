@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>839</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Примитивы OpenGL</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_16">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_14">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="GLWidget" name="MyGLWidget" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <zorder></zorder>
+            <zorder></zorder>
+            <zorder></zorder>
+            <zorder></zorder>
+            <zorder></zorder>
+            <zorder></zorder>
+            <zorder></zorder>
+            <zorder></zorder>
+            <zorder></zorder>
+            <zorder></zorder>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_15">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QLabel" name="label_2">
+                <property name="text">
+                 <string>X1:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSlider" name="ScissorX">
+                <property name="minimumSize">
+                 <size>
+                  <width>92</width>
+                  <height>22</height>
+                 </size>
+                </property>
+                <property name="maximum">
+                 <number>100</number>
+                </property>
+                <property name="singleStep">
+                 <number>1</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_2">
+              <item>
+               <widget class="QLabel" name="label_3">
+                <property name="text">
+                 <string>Y1:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSlider" name="ScissorY">
+                <property name="maximum">
+                 <number>100</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <item>
+               <widget class="QLabel" name="label_6">
+                <property name="text">
+                 <string>X2:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSlider" name="ScissorX_5">
+                <property name="minimumSize">
+                 <size>
+                  <width>92</width>
+                  <height>22</height>
+                 </size>
+                </property>
+                <property name="maximum">
+                 <number>100</number>
+                </property>
+                <property name="singleStep">
+                 <number>1</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>Y2:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSlider" name="ScissorX_6">
+                <property name="minimumSize">
+                 <size>
+                  <width>92</width>
+                  <height>22</height>
+                 </size>
+                </property>
+                <property name="maximum">
+                 <number>100</number>
+                </property>
+                <property name="singleStep">
+                 <number>1</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_43">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_44">
+            <item>
+             <widget class="QLabel" name="label_27">
+              <property name="text">
+               <string>X3:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="ScissorX_3">
+              <property name="minimumSize">
+               <size>
+                <width>92</width>
+                <height>22</height>
+               </size>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+              <property name="singleStep">
+               <number>1</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_45">
+            <item>
+             <widget class="QLabel" name="label_28">
+              <property name="text">
+               <string>Y3:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="ScissorY_3">
+              <property name="maximum">
+               <number>100</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_46">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_47">
+            <item>
+             <widget class="QLabel" name="label_29">
+              <property name="text">
+               <string>X4:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="ScissorX_7">
+              <property name="minimumSize">
+               <size>
+                <width>92</width>
+                <height>22</height>
+               </size>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+              <property name="singleStep">
+               <number>1</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_48">
+            <item>
+             <widget class="QLabel" name="label_30">
+              <property name="text">
+               <string>Y4:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="ScissorX_8">
+              <property name="minimumSize">
+               <size>
+                <width>92</width>
+                <height>22</height>
+               </size>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+              <property name="singleStep">
+               <number>1</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_49">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_50">
+            <item>
+             <widget class="QLabel" name="label_31">
+              <property name="text">
+               <string>X5:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="ScissorX_4">
+              <property name="minimumSize">
+               <size>
+                <width>92</width>
+                <height>22</height>
+               </size>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+              <property name="singleStep">
+               <number>1</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_51">
+            <item>
+             <widget class="QLabel" name="label_32">
+              <property name="text">
+               <string>Y5:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="ScissorY_4">
+              <property name="maximum">
+               <number>100</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_52">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_53">
+            <item>
+             <widget class="QLabel" name="label_33">
+              <property name="text">
+               <string>X6:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="ScissorX_9">
+              <property name="minimumSize">
+               <size>
+                <width>92</width>
+                <height>22</height>
+               </size>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+              <property name="singleStep">
+               <number>1</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_54">
+            <item>
+             <widget class="QLabel" name="label_34">
+              <property name="text">
+               <string>Y6:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="ScissorX_10">
+              <property name="minimumSize">
+               <size>
+                <width>92</width>
+                <height>22</height>
+               </size>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+              <property name="singleStep">
+               <number>1</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+   <zorder></zorder>
+   <zorder></zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>GLWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">glwidget.h</header>
+   <container>1</container>
+   <slots>
+    <slot>changeShapePicture(QString)</slot>
+    <slot>changeSfactor(QString)</slot>
+    <slot>changeDfactor(QString)</slot>
+    <slot>changeX0(int)</slot>
+    <slot>changeY0(int)</slot>
+    <slot>changeX1(int)</slot>
+    <slot>changeY1(int)</slot>
+    <slot>changeX2(int)</slot>
+    <slot>changeY2(int)</slot>
+    <slot>changeX3(int)</slot>
+    <slot>changeY3(int)</slot>
+    <slot>changeX4(int)</slot>
+    <slot>changeY4(int)</slot>
+    <slot>changeX5(int)</slot>
+    <slot>changeY5(int)</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>ScissorX</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeX0(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>101</x>
+     <y>524</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>165</x>
+     <y>415</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ScissorY</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeY0(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>93</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>119</x>
+     <y>415</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ScissorX_3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeX2(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>329</x>
+     <y>526</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>458</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ScissorY_3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeY2(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>372</x>
+     <y>582</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>366</x>
+     <y>458</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ScissorX_4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeX4(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>617</x>
+     <y>528</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>611</x>
+     <y>458</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ScissorY_4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeY4(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>650</x>
+     <y>582</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>646</x>
+     <y>449</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ScissorX_5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeX1(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>221</x>
+     <y>522</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>221</x>
+     <y>459</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ScissorX_6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeY1(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>259</x>
+     <y>578</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>255</x>
+     <y>434</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ScissorX_7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeX3(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>531</x>
+     <y>521</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>525</x>
+     <y>410</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ScissorX_8</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeY3(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>466</x>
+     <y>585</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>464</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ScissorX_9</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeX5(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>761</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>749</x>
+     <y>421</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ScissorX_10</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MyGLWidget</receiver>
+   <slot>changeY5(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>792</x>
+     <y>583</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>731</x>
+     <y>452</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
