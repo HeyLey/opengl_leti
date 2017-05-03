@@ -62,7 +62,7 @@ void GLWidget::DrawCurve() {
     glBegin(GL_POINTS);
 
     for (size_t i = 0; i < 6; i += 1) {
-        glVertex2f(points[i].x, points[i].y);
+        glVertex2f(points[i].x * 3, points[i].y *3);
     }
 
     glEnd();
@@ -72,7 +72,7 @@ void GLWidget::DrawCurve() {
     glBegin(GL_LINE_STRIP);
     for (double t = 0; t <= 1; t += 0.001) {
         point p = GetPoint(t);
-        glVertex2f(p.x, p.y);
+        glVertex2f(p.x * 3, p.y * 3);
 
     }
     glEnd();
